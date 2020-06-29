@@ -19,6 +19,8 @@ public:
     Game(unsigned int width, unsigned int height);
     ~Game();
 
+    void DoCollisions();
+
     void Init();
 
     void ProcessInput(float dt);
